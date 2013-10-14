@@ -2,7 +2,7 @@ require 'formula'
 
 class VimTow8ie < Formula
   homepage 'http://www.vim.org/'
-  url 'https://vim.googlecode.com/hg/', :tag => 'v7-3-1078'
+  url 'https://vim.googlecode.com/hg/', :tag => 'v7-4-052'
   version '7.3.1078'
 
   head 'https://vim.googlecode.com/hg/'
