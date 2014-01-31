@@ -15,6 +15,7 @@ class VimTow8ie < Formula
                           "--enable-fontset",
                           "--with-compiledby='Tobias Adam <tow8ie@gmail.com>'",
                           "--without-x",
+                          "--enable-pythoninterp=dynamic",
                           "--prefix=#{prefix}"
     system "make"
     system "make", "install"
