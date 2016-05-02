@@ -2,10 +2,10 @@ require 'formula'
 
 class VimTow8ie < Formula
   homepage 'http://www.vim.org/'
-  url 'https://vim.googlecode.com/hg/', :tag => 'v7-4-135'
-  version '7.4.135'
+  url 'https://github.com/vim/vim', :using => :git, :tag => 'v7.4.1816'
+  version '7.4.1816'
 
-  head 'https://vim.googlecode.com/hg/'
+  head 'https://github.com/vim/vim.git'
 
   def install
     system "make", "clean"
